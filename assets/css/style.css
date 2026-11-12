@@ -247,8 +247,8 @@ main { padding: 2rem 0 4rem; }
 .project[hidden] { display: none; }
 .project-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
 .project-kind { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.project-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.8rem; }
 .project-link { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
-.project-link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; } /* whole card clickable */
 .project-link:hover { text-decoration: underline; }
 .project h4 { margin: 0.6rem 0 0; font-size: 1.15rem; color: var(--text-strong); }
 .project:hover h4 { color: var(--accent); }
